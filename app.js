@@ -149,7 +149,10 @@
         findByName(tripName) {
         return new Promise((resolve, reject) => {
         setTimeout(function ()  {
-            if ()
+            if (trip!='undefined')
+            resolve(tripName)
+            else {
+                reject;))
         // ici l'exécution du code est asynchrone
         // TODO utiliser resolve et reject en fonction du résultat de la recherche
         }, 2000)
