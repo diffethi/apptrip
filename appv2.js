@@ -138,7 +138,7 @@
 
         }
         
-        findByName(tripName) {
+        findByName(toulouse) {
             return new Promise((resolve, reject) => {
             setTimeout(()=>  {
                 let outcome="err";
